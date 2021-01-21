@@ -1,0 +1,81 @@
+body {
+  background-color: #00ffac;
+}
+
+header {
+  font-family: cursive;
+  font-size: 32pt;
+  text-align: center;
+  margin-top: 12pt;
+  margin-bottom: 6pt;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 14pt;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14pt;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.density-control, .color-control, .erase-control {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.container {
+  width: 660px;
+  height: 660px;
+  background-color: white;
+  display: grid;
+  max-width: 960px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-small {
+  grid-template-columns: repeat(16, auto);
+}
+
+.grid-medium {
+  grid-template-columns: repeat(32, auto);
+}
+
+.grid-large {
+  grid-template-columns: repeat(64, auto);
+}
+
+.square {
+  background-color: #D8D8D8;
+  outline: 1px solid white;
+}
+
+.highlight {
+  background-color: yellow;
+}

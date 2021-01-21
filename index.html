@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/reset.css" media="all">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <header>Etch A Sketch</header>
+    <div class="controls">
+      <div class="density-control">
+        <p>Grid density:</p>
+        <button type="button" name="grid" value="grid-small">16x16</button>
+        <button type="button" name="grid" value="grid-medium" class="highlight">32x32</button>
+        <button type="button" name="grid" value="grid-large">64x64</button>
+      </div>
+      <div class="color-control">
+        <p>Color:</p>
+        <button type="button" name="color" value="black" class="highlight">Black</button>
+        <button type="button" name="color" value="rgb">RGB</button>
+        <button type="button" name="color" value="gray">Gray</button>
+      </div>
+      <div class="reload-control">
+        <button type="button" name="reload" value="reload">Reload</button>
+      </div>
+    </div>
+    <div class="container"></div>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>
